@@ -7,7 +7,7 @@ else {
     console.log ('Eror');
 }
 
-const num = 50;
+/*const num = 49;
 if (num <49) {
     console.log ('Eror');
 }else if (num > 100){
@@ -15,4 +15,20 @@ if (num <49) {
 }else {
     console.log('Ок!');
 }
-( num === 50) ?  console.log('Ок!') : console.log ('Eror');
+( num === 50) ?  console.log('Ок!') : console.log ('Eror');*/
+
+const num = '50';
+switch (num){
+    case '49':
+        console.log('Неверно');
+        break;
+    case '100':
+        console.log('Неверно');
+        break;
+    case '50':
+            console.log('Верно');
+            break;   
+    default:
+        console.log('Не сегодня!');
+        break;   
+}

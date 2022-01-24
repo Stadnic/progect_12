@@ -19,7 +19,7 @@
         'logan': '8.1'
     }
     muvie.as
-    muvie[as]
+    muvie[as]--
 'use strict';
 Проверить, чтобы все работало без ошибок в консоли */
 
